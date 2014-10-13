@@ -1,0 +1,33 @@
+{
+  "name": "pusher-realtime-tfl-cameras-demo",
+  "version": "0.0.2",
+  "description": "Realtime API demo of TfL traffic cameras, powered by Pusher.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/pusher/pusher-realtime-tfl-cameras-demo"
+  },
+  "keywords": [
+    "tfl",
+    "realtime",
+    "live",
+    "api",
+    "traffic",
+    "transport",
+    "pusher"
+  ],
+  "author": "Robin Hawkes <robin@pusher.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pusher/pusher-realtime-tfl-cameras-demo/issues"
+  },
+  "homepage": "https://github.com/pusher/pusher-realtime-tfl-cameras-demo",
+  "dependencies": {
+    "errorhandler": "~1.1.1",
+    "body-parser": "~1.5.2",
+    "express": "~4.7.2"
+  }
+}
