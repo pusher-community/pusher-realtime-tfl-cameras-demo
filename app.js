@@ -34,6 +34,11 @@ app.use(errorHandler({
 // Serve static files from directory
 app.use(express.static(root));
 
+// Ping
+app.get("/ping", function(req, res) {
+  res.send(200);
+});
+
 // Open server on specified port
 if (!silent) console.log("Starting Express server");
 app.listen(process.env.PORT || 5001);

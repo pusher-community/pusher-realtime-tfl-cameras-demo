@@ -31,7 +31,7 @@ L.tileLayer("https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png", {
   id: 'examples.map-i87786ca'
 }).addTo(map);
 
-$.getJSON("/cameras", function(cameras) {
+$.getJSON("http://realtime-tfl-cameras.herokuapp.com/cameras", function(cameras) {
   if (_.size(cameras) > 0) {
     addCamerasToMap(cameras);
   }
